@@ -1,0 +1,77 @@
+{
+    "get_gp": {
+        "_doc": "先进入开发界面",
+        "recognition": "TemplateMatch",
+        "template": "gp/0079.png",
+        "roi": [
+            360,
+            184,
+            108,
+            81
+        ],
+        "action": "Click",
+        "post_delay": 1000,
+        "next": [
+            "build_61"
+        ]
+    },
+    "build_61": {
+        "recognition": "TemplateMatch",
+        "template": "gp/61.png",
+        "roi": [
+            247,
+            149,
+            1021,
+            559
+        ],
+        "action": "Click",
+        "post_delay": 1000,
+        "next": [
+            "build_61_2"
+        ]
+    },
+    "build_61_2": {
+        "recognition": "TemplateMatch",
+        "template": "gp/execute.png",
+        "roi": [
+            709,
+            648,
+            113,
+            32
+        ],
+        "action": "Click",
+        "post_delay": 1000,
+        "next": [
+            "build_61_3"
+        ]
+    },
+    "build_61_3": {
+        "recognition": "TemplateMatch",
+        "template": "gp/execute_2.png",
+        "roi": [
+            734,
+            646,
+            61,
+            36
+        ],
+        "action": "Click",
+        "next": [
+            "build_61_4"
+        ]
+    },
+    "build_61_4": {
+        "recognition": "TemplateMatch",
+        "template": "gp/builded_61.png",
+        "roi": [
+            501,
+            590,
+            287,
+            74
+        ],
+        "action": "Click",
+        "post_delay": 5000,
+        "next": [
+            "build_61"
+        ]
+    }
+}
