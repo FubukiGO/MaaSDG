@@ -2,7 +2,7 @@
 <div align="center">
   <img alt="LOGO" src="./logo.png" width="96" height="96" />
 
-## MaaTOT
+## MaaSDG
 
 基于全新架构的SD高达G世纪小助手。图像技术 + 模拟控制，解放双手！
 由 [MaaFramework](https://github.com/MaaXYZ/MaaFramework) 强力驱动！
